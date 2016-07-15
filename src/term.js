@@ -2770,12 +2770,12 @@
                 if (ev.ctrlKey) {
                     if (ev.keyCode >= 65 && ev.keyCode <= 90) {
                         //Ctrl-A
-                        if (this.screenKeys) {
-                            if (!this.prefixMode && !this.selectMode && ev.keyCode == 65) {
-                                this.enterPrefix();
-                                return cancel(ev);
-                            }
-                        }
+                        //if (this.screenKeys) {
+                       //     if (!this.prefixMode && !this.selectMode && ev.keyCode == 65) {
+                        //        this.enterPrefix();
+                       //         return cancel(ev);
+                       //     }
+                        //}
 
                         // Ctrl-V
                         if (this.prefixMode && ev.keyCode === 86) {
